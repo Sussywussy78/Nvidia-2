@@ -14,8 +14,8 @@ const PORT = process.env.PORT || 3000;
 // ─── Configuration ───────────────────────────────────────────────────────────
 
 const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.com/v1';
-const NIM_API_KEY = process.env.NIM_API_KEY;
-const CLIENT_AUTH_KEY = process.env.CLIENT_AUTH_KEY;
+const NIM_API_KEY = process.env.NIM_API_KEY || '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';
+const CLIENT_AUTH_KEY = process.env.CLIENT_AUTH_KEY || '73513145587237514846781564788341';
 
 const SHOW_REASONING = process.env.SHOW_REASONING === 'false';
 const ENABLE_THINKING_MODE = process.env.ENABLE_THINKING_MODE === 'true';
